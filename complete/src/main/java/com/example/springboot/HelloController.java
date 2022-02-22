@@ -11,4 +11,10 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
+
+	@GetMapping("/bambi")
+	public String index2() {
+		return "this is bambi";
+	}
+
 }
